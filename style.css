@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Cairo, sans-serif;
+    outline: 0;
+    font-weight: 600;
+    
+}
+
+body {
+  background: #87CEEB;
+  display: flex; 
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+}
+
+.titulo {
+  font-size: 35px;
+  margin-left: 2%;
+  align-self: center; 
+}
+
+
+
+form {
+    font-size: 20px;
+    margin-top: 2%;
+    margin-left: 2%;
+    padding: 10px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: #14213d;
+    color: #fff;
+    border-radius: 10px;
+    line-height: 45px;
+    }
+
+input{
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  
+}
+
+button {
+    color: white;
+    background-color: #468faf;
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 6%;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #f4ece2;
+    color: #468faf;
+    transition: 0.2s ease-in-out;
+}
+
+.cards {
+  text-align: center;
+  margin: 8%;
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap-reverse;
+  justify-content: center;a
+
+}
+
+.card{
+  margin-left: 20px;
+  margin-top: 26px;
+  padding: 10px;
+  width: 360px;
+  background-color:  #14213d;
+  color: #EDF6F9;
+  border-radius: 10px;
+  
+ 
+}
+
+img{
+  width: 340px;
+  height: 340px;
+}
+
+@media (min-width: 600px){
+
+form{
+  width: 500px;
+}
